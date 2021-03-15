@@ -10,7 +10,7 @@ and has been forked to be maintained by [chocolatkey][chocolatkey].
 ## Installation
 
 ```console
-$ go get github.com/snowplow/referer-parser/go
+$ go get github.com/chocolatkey/golang-referer-parser
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ package main
 import (
   "log"
 
-  "github.com/snowplow/referer-parser/go"
+  "github.com/chocolatkey/golang-referer-parser"
 )
 
 func main() {
@@ -70,4 +70,3 @@ THE SOFTWARE.
 
 [tsileo]: https://github.com/tsileo
 [chocolatkey]: https://github.com/chocolatkey
-[go-bindata]: https://github.com/jteeuwen/go-bindata
