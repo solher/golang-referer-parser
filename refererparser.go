@@ -13,24 +13,22 @@ import (
 	"encoding/json"
 	"net/url"
 	"strings"
+
+	"github.com/chocolatkey/golang-referer-parser/data"
 )
 
 type refererData map[string]map[string]map[string][]string
 
-var data refererData
+var rdata refererData
 
 func init() {
-	data = loadRefererData()
+	rdata = loadRefererData()
 }
 
 // loadRefererData loads and parses the YAML file.
 func loadRefererData() refererData {
-	dat, err := Asset("data/referers.json")
-	if err != nil {
-		panic(err)
-	}
 	res := make(refererData)
-	if err := json.Unmarshal(dat, &res); err != nil {
+	if err := json.Unmarshal(data.ReferersJSON, &res); err != nil {
 		panic(err)
 	}
 	return res
@@ -56,7 +54,7 @@ func (ref *RefererResult) SetCurrent(curl string) {
 
 func lookup(uri *url.URL, q string, suffix bool) (refResult *RefererResult) {
 	refResult = &RefererResult{URI: uri, Medium: "unknown"}
-	for medium, mediumData := range data {
+	for medium, mediumData := range rdata {
 		for refName, refconfig := range mediumData {
 			for _, domain := range refconfig["domains"] {
 				if (!suffix && q == domain) || (suffix && (strings.HasSuffix(q, domain) || strings.HasPrefix(q, domain))) {
@@ -85,7 +83,7 @@ func lookup(uri *url.URL, q string, suffix bool) (refResult *RefererResult) {
 func Parse(uri string) (refResult *RefererResult) {
 	puri, parseErr := url.Parse(uri)
 	if parseErr != nil {
-		return;
+		return
 	}
 	// Split before the first dot ".".
 	parts := strings.SplitAfterN(puri.Host, ".", 2)

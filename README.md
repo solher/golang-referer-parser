@@ -4,7 +4,8 @@ This is the Go implementation of [referer-parser][referer-parser], the library f
 
 The implementation uses the shared 'database' of known referers found in [`referers.yml`][referers-yml].
 
-The Go version of referer-parser is maintained by [Thomas Sileo][tsileo].
+The Go version of referer-parser was maintained by [Thomas Sileo][tsileo],
+and has been forked to be maintained by [chocolatkey][chocolatkey].
 
 ## Installation
 
@@ -39,11 +40,7 @@ func main() {
 
 ## referers.yml embed
 
-The [`referers.json`][referers-yml] is embedded in the package using [`go-bindata`][go-bindata].
-
-```
-$ go-bindata -ignore=\\.yml -pkg refererparser data/...
-```
+This package now requires at minimum go 1.16, to embed the [`referers.json`](https://s3-eu-west-1.amazonaws.com/snowplow-hosted-assets/third-party/referer-parser/referers-latest.json) data. Run the `update_referers.sh` script to pull the latest version.
 
 ## Copyright and license
 
@@ -70,7 +67,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 [referer-parser]: https://github.com/snowplow/referer-parser
-[referers-yml]: https://github.com/snowplow/referer-parser/blob/master/referers.json
 
 [tsileo]: https://github.com/tsileo
+[chocolatkey]: https://github.com/chocolatkey
 [go-bindata]: https://github.com/jteeuwen/go-bindata
