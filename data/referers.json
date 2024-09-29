@@ -328,12 +328,12 @@
                 "q"
             ]
         }, 
-        "Liveinternet": {
+        "Arcor": {
             "domains": [
-                "liveinternet.ru"
+                "www.arcor.de"
             ], 
             "parameters": [
-                "q"
+                "Keywords"
             ]
         }, 
         "arama": {
@@ -1355,6 +1355,16 @@
                 "text"
             ]
         }, 
+        "Indeed": {
+            "domains": [
+                "de.indeed.com", 
+                "at.indeed.com", 
+                "fr.indeed.com", 
+                "it.indeed.com", 
+                "ch.indeed.com", 
+                "au.indeed.com"
+            ]
+        }, 
         "canoe.ca": {
             "domains": [
                 "web.canoe.ca"
@@ -1418,6 +1428,17 @@
             ], 
             "parameters": [
                 "q"
+            ]
+        }, 
+        "StepStone": {
+            "domains": [
+                "www.stepstone.de", 
+                "www.stepstone.at", 
+                "www.stepstone.be", 
+                "www.stepstone.fr", 
+                "www.stepstone.nl", 
+                "www.stepstone.dk", 
+                "www.stepstone.se"
             ]
         }, 
         "Jungle Spider": {
@@ -2135,12 +2156,12 @@
                 "keyword"
             ]
         }, 
-        "Arcor": {
+        "Lilo": {
             "domains": [
-                "www.arcor.de"
+                "search.lilo.org"
             ], 
             "parameters": [
-                "Keywords"
+                "q"
             ]
         }, 
         "Naver": {
@@ -2503,6 +2524,14 @@
                 "q"
             ]
         }, 
+        "Liveinternet": {
+            "domains": [
+                "liveinternet.ru"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
         "Meinestadt": {
             "domains": [
                 "www.meinestadt.de"
@@ -2522,6 +2551,14 @@
         "AllTheWeb": {
             "domains": [
                 "www.alltheweb.com"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
+        "Coccoc": {
+            "domains": [
+                "coccoc.com"
             ], 
             "parameters": [
                 "q"
@@ -2879,6 +2916,23 @@
         "DuckDuckGo": {
             "domains": [
                 "duckduckgo.com"
+            ], 
+            "parameters": [
+                "q"
+            ]
+        }, 
+        "Monster": {
+            "domains": [
+                "www.monster.be", 
+                "www.monster.cz", 
+                "www.monster.de", 
+                "www.monster.fi", 
+                "www.monster.fr", 
+                "www.monster.ie", 
+                "www.monster.it", 
+                "www.monster.lu", 
+                "www.monster.ch", 
+                "www.monster.co.uk"
             ], 
             "parameters": [
                 "q"
@@ -3643,7 +3697,8 @@
                 "www.googleearth.fr", 
                 "webcache.googleusercontent.com", 
                 "encrypted.google.com", 
-                "googlesyndicatedsearch.com"
+                "googlesyndicatedsearch.com", 
+                "com.google.android.googlequicksearchbox"
             ], 
             "parameters": [
                 "q", 
@@ -3795,7 +3850,8 @@
                 "mail.yahoo.net", 
                 "mail.yahoo.com", 
                 "mail.yahoo.co.uk", 
-                "mail.yahoo.co.jp"
+                "mail.yahoo.co.jp", 
+                "com.yahoo.mobile.client.android.mail"
             ]
         }, 
         "iiNet": {
@@ -3817,6 +3873,11 @@
         "126 Mail": {
             "domains": [
                 "mail.126.com"
+            ]
+        }, 
+        "Mailchimp": {
+            "domains": [
+                "com.mailchimp.mailchimp"
             ]
         }, 
         "Inbox.com": {
@@ -3863,7 +3924,8 @@
         "Outlook.com": {
             "domains": [
                 "mail.live.com", 
-                "outlook.live.com"
+                "outlook.live.com", 
+                "com.microsoft.office.outlook"
             ]
         }, 
         "Dodo": {
@@ -3903,9 +3965,15 @@
                 "orange.fr/webmail"
             ]
         }, 
+        "earthlink": {
+            "domains": [
+                "com.earthlink.myearthlink"
+            ]
+        }, 
         "AOL Mail": {
             "domains": [
-                "mail.aol.com"
+                "mail.aol.com", 
+                "com.aol.mobile.aolapp"
             ]
         }, 
         "Netspace": {
@@ -3962,6 +4030,7 @@
         "Gmail": {
             "domains": [
                 "mail.google.com", 
+                "com.google.android.gm", 
                 "inbox.google.com"
             ]
         }
@@ -4241,10 +4310,9 @@
                 "friendster.com"
             ]
         }, 
-        "Weibo": {
+        "vKruguDruzei.ru": {
             "domains": [
-                "weibo.com", 
-                "t.cn"
+                "vkrugudruzei.ru"
             ]
         }, 
         "Xanga": {
@@ -4288,9 +4356,10 @@
                 "ok.ru"
             ]
         }, 
-        "GitHub": {
+        "Tildes": {
             "domains": [
-                "github.com"
+                "tildes.net", 
+                "com.talklittle.android.tildes"
             ]
         }, 
         "Classmates": {
@@ -4303,9 +4372,10 @@
                 "friendsreunited.com"
             ]
         }, 
-        "Renren": {
+        "Hacker News": {
             "domains": [
-                "renren.com"
+                "news.ycombinator.com", 
+                "io.github.hidroh.materialistic"
             ]
         }, 
         "Quora": {
@@ -4313,9 +4383,9 @@
                 "quora.com"
             ]
         }, 
-        "Gaia Online": {
+        "LiveJournal": {
             "domains": [
-                "gaiaonline.com"
+                "livejournal.ru"
             ]
         }, 
         "Netlog": {
@@ -4338,9 +4408,27 @@
                 "multiply.com"
             ]
         }, 
+        "Threads": {
+            "domains": [
+                "threads.net", 
+                "l.threads.net", 
+                "com.instagram.barcelona"
+            ]
+        }, 
         "myYearbook": {
             "domains": [
                 "myyearbook.com"
+            ]
+        }, 
+        "Renren": {
+            "domains": [
+                "renren.com"
+            ]
+        }, 
+        "Slack": {
+            "domains": [
+                "app.slack.com", 
+                "com.slack"
             ]
         }, 
         "WeeWorld": {
@@ -4357,6 +4445,11 @@
             "domains": [
                 "Sozluk.com", 
                 "sourtimes.org"
+            ]
+        }, 
+        "Mixi": {
+            "domains": [
+                "mixi.jp"
             ]
         }, 
         "Geni": {
@@ -4398,7 +4491,8 @@
         "Instagram": {
             "domains": [
                 "instagram.com", 
-                "l.instagram.com"
+                "l.instagram.com", 
+                "com.instagram.android"
             ]
         }, 
         "Vkontakte": {
@@ -4409,15 +4503,33 @@
                 "vkontakte.ru"
             ]
         }, 
+        "Weibo": {
+            "domains": [
+                "weibo.com", 
+                "t.cn"
+            ]
+        }, 
+        "Telegram": {
+            "domains": [
+                "web.telegram.org", 
+                "org.telegram.messenger", 
+                "org.telegram.messenger.web", 
+                "org.aka.messenger", 
+                "org.telegram.biftogram", 
+                "org.telegram.plus"
+            ]
+        }, 
         "Twitter": {
             "domains": [
                 "twitter.com", 
-                "t.co"
+                "t.co", 
+                "com.twitter.android"
             ]
         }, 
-        "vKruguDruzei.ru": {
+        "Snapchat": {
             "domains": [
-                "vkrugudruzei.ru"
+                "com.snapchat.android", 
+                "snapchat.com"
             ]
         }, 
         "Donanimhaber": {
@@ -4457,11 +4569,33 @@
         }, 
         "Pinterest": {
             "domains": [
-                "pinterest.com"
+                "pinterest.ca", 
+                "pinterest.cl", 
+                "pinterest.co.kr", 
+                "pinterest.com", 
+                "pinterest.com.au", 
+                "pinterest.co.uk", 
+                "pinterest.de", 
+                "pinterest.dk", 
+                "pinterest.es", 
+                "pinterest.fr", 
+                "pinterest.jp", 
+                "pinterest.nz", 
+                "pinterest.pt", 
+                "pinterest.se", 
+                "pinterest.at", 
+                "pinterest.ch", 
+                "pinterest.com.mx", 
+                "pinterest.ie", 
+                "pinterest.it", 
+                "pinterest.ph", 
+                "pinterest.ru", 
+                "com.pinterest"
             ]
         }, 
         "LinkedIn": {
             "domains": [
+                "com.linkedin.android", 
                 "linkedin.com", 
                 "lnkd.in"
             ]
@@ -4471,9 +4605,9 @@
                 "foursquare.com"
             ]
         }, 
-        "Flixster": {
+        "Douban": {
             "domains": [
-                "flixster.com"
+                "douban.com"
             ]
         }, 
         "Windows Live Spaces": {
@@ -4507,12 +4641,14 @@
                 "fb.me", 
                 "m.facebook.com", 
                 "l.facebook.com", 
-                "lm.facebook.com"
+                "lm.facebook.com", 
+                "com.facebook.katana"
             ]
         }, 
         "WhatsApp": {
             "domains": [
-                "web.whatsapp.com"
+                "web.whatsapp.com", 
+                "com.whatsapp"
             ]
         }, 
         "Disqus": {
@@ -4553,9 +4689,9 @@
                 "qzone.qq.com"
             ]
         }, 
-        "Douban": {
+        "Flixster": {
             "domains": [
-                "douban.com"
+                "flixster.com"
             ]
         }, 
         "Bebo": {
@@ -4576,12 +4712,20 @@
         }, 
         "Reddit": {
             "domains": [
-                "reddit.com"
+                "reddit.com", 
+                "io.syncapps.lemmy_sync", 
+                "com.laurencedawson.reddit_sync", 
+                "com.laurencedawson.reddit_sync.pro"
             ]
         }, 
-        "Identi.ca": {
+        "Viadeo": {
             "domains": [
-                "identi.ca"
+                "viadeo.com"
+            ]
+        }, 
+        "GitHub": {
+            "domains": [
+                "github.com"
             ]
         }, 
         "StackOverflow": {
@@ -4589,9 +4733,9 @@
                 "stackoverflow.com"
             ]
         }, 
-        "Mixi": {
+        "Gaia Online": {
             "domains": [
-                "mixi.jp"
+                "gaiaonline.com"
             ]
         }, 
         "StumbleUpon": {
@@ -4606,19 +4750,14 @@
                 "incisozluk.cc"
             ]
         }, 
-        "Viadeo": {
+        "Identi.ca": {
             "domains": [
-                "viadeo.com"
+                "identi.ca"
             ]
         }, 
         "Last.fm": {
             "domains": [
                 "lastfm.ru"
-            ]
-        }, 
-        "LiveJournal": {
-            "domains": [
-                "livejournal.ru"
             ]
         }, 
         "Tumblr": {
@@ -4627,9 +4766,9 @@
                 "t.umblr.com"
             ]
         }, 
-        "Hacker News": {
+        "TikTok": {
             "domains": [
-                "news.ycombinator.com"
+                "tiktok.com"
             ]
         }, 
         "Hocam.com": {

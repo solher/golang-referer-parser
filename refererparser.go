@@ -1,11 +1,9 @@
 /*
-
 Package refererparser implements referer extraction using a shared 'database' of known referers found in referers.yml [1].
 
 Links
 
 	[1] https://github.com/snowplow/referer-parser/blob/master/referers.yml
-
 */
 package refererparser
 
@@ -14,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/chocolatkey/golang-referer-parser/data"
+	"github.com/solher/golang-referer-parser/data"
 )
 
 type refererData map[string]map[string]map[string][]string
